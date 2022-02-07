@@ -1,0 +1,462 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500;600;700&display=swap');
+.header{
+    margin-top: 1em;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo img{
+    height: 30px;
+    cursor: pointer;
+}
+.logo div{
+    display: none;
+}
+
+.navbar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 12px;
+    font-family: "Rubik";
+
+}
+
+.navbar span{
+    padding: 30px;
+    cursor: pointer;
+}
+
+.navbar .active{
+    color: #FE0A74;
+}
+
+.navbar-btn{
+    padding: 10px 20px 10px 20px;
+    border: 1px solid #FE0A74;
+    border-style: dashed;
+    border-radius: 5px;
+    color: #FE0A74;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+}
+
+.navbar-btn img{
+    height: 15px;
+    padding-right: 5px;
+}
+
+.section2{
+    font-family: "RUbik";
+}
+
+.section2-text{
+    position: relative;
+    top: 120px;
+}
+
+.section2-text h3{
+    margin-bottom: 10px;
+    font-weight: 200;
+    font-size: 18px
+}
+
+.section2-text h1{
+    font-size: 40px;
+    font-weight: 500;
+    color: #2c2c2c;
+    margin-bottom: 20px;
+}
+
+.section2-text p{
+    font-size: 16px;
+    color: #444;
+    margin-bottom: 30px;
+}
+
+
+.choice1{
+    padding: 10px 25px 10px 25px;
+    background-color: #FE0A74;
+    color: white;
+    border-radius: 5px;
+    font-size: 12px;
+    border: none;
+    cursor: pointer;
+}
+
+.choice2{
+    margin-left: 10px;
+    padding: 10px 50px 10px 50px;
+    background-color: #270212;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font: 12px;
+    cursor: pointer;
+}
+
+.section2-img img{
+    height: 561px;
+}
+
+.section3 {
+    background-color: #fbfbfb;
+    height: 587px;
+    margin-top: 160px;
+}
+
+.section3-img{
+    position: relative;
+}
+
+.box1{
+    position: absolute;
+    top: 22px;
+    left: 50px;
+}
+
+.box2{
+    height: 315px;
+    width: 315px;
+    border: 20px solid #FE0A74;
+}
+
+.section3-text{
+    position: relative;
+    top: 20px;
+    font-family: "Rubik";
+}
+
+.mobile-view{
+    display: none;
+}
+
+.section3-text h1{
+    font-size: 35px;
+    font-weight: 500;
+    line-height: 50PX;
+    margin-bottom: 20px;
+    color: #2c2c2c;
+}
+
+.section3-text p{
+    font-size: 16px;
+    color: #444;
+    margin-bottom: 50px;
+}
+
+.section3-text .mobile-view{
+    display: none;
+}
+.section4{
+    margin-top: 10em;
+}
+
+.howitworks {
+    margin-top: 20em;
+    text-align: center;
+    font-family: "Rubik";
+}
+
+.howitworks h1{
+    margin-bottom: 3em;
+    font-size: 35px;
+    font-weight: 500;
+}
+
+.howitworks-mask{
+    position: relative;
+}
+
+.howitworks-mask .mask1{
+    position: absolute;
+    top: 30px;
+    left: 100px;
+
+}
+
+.howitworks-mask .mask2{
+    border: 15px solid #FE0A74;
+    height: 520px;
+    width: 1003px;
+    box-shadow: 0px 20px 40px rgb(141, 138, 138);
+}
+
+.ourcustomers{
+    font-family: "Rubik";
+    margin-top: 10em;
+    text-align: center;
+}
+
+.ourcustomers h1{
+    font-size: 35px;
+    font-weight: 500;
+    margin-bottom: 3em;
+}
+
+.testimony{
+    background-color: #ffff;
+    box-shadow: 0px 3px 6px #0000001A;
+    border-radius: 10px;
+
+}
+
+
+.ourcustomers .testimony p{
+    margin-top: 50px;
+    font-size: 16px;
+    color: #4e4e4e;
+    margin-bottom: 40px;
+}
+
+.ourcustomers .testimony i{
+    margin-bottom: 40px;
+    padding: 5px;
+}
+
+.ourcustomers .testimony-img{
+    margin-bottom: 10px;
+}
+
+.title{
+    color: #707D97;
+    font-size: 13px;
+    padding-bottom: 20px;
+}
+
+
+.footer{
+    margin-top: 10em;
+}
+
+.footer1{
+    background-color: #D4015D;
+    height: 268px;
+    text-align: center;
+    font-family: "Rubik";
+    color: white;
+    
+}
+
+.footer1 h1{
+    padding-top: 2em;
+    padding-bottom: 30px;
+    font-size: 35px;
+    font-weight: 500;
+}
+
+.footer1 div{
+    font-size: 14px;
+    font-weight: 200;
+    margin-bottom: 30px;
+
+}
+
+.footer1 button{
+    padding: 10px 20px 10px 20px;
+    border: none;
+    font-weight: bold;
+    color: #D4015D;
+    background-color: white;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.footer2{
+    background-color: #292929;
+    height: 100px;
+    text-align: center;
+    
+}
+
+.footer2 img{
+    position: relative;
+    top: 30px;;
+
+}
+
+.footer3{
+    background-color: #4b4b4b;
+    height: 57px;
+    text-align: center;
+}
+
+
+.footer3 p{
+    position: relative;
+    top: 20px;
+    font-weight: 200;
+    font-family: "Rubik";
+    font-size: 16px;
+    color: #A1A1A1;
+}
+
+ /*Tablets [601px -> 1200px]*/
+@media only screen and (max-width: 1200px){
+    .section2-img img{
+        height: 500px;
+    }
+
+    .section2-text h1{
+        font-size: 35px;
+    }
+
+    .section3-text h1 {
+        font-size: 30px;
+    }
+
+    .section3-text p{
+        font-size: 14px;
+    }
+
+    .howitworks-mask img{
+        width: 900px;
+    }
+
+    .howitworks-mask .mask1{
+        left: 50px;
+    }
+
+    .howitworks-mask .mask2{
+        height: 450px;
+        width: 800px;
+    }
+}
+
+@media only screen and (max-width: 455px){
+	
+    .logo{
+      display: flex;
+      align-items: center;
+    }
+    .logo i{
+        cursor: pointer;
+    }
+    .logo img{
+        margin-left: 150px;
+    }
+
+    .logo div{
+        display: flex;
+        color: #FE0A74;
+    }
+
+    .navbar{
+        display: none;
+    }
+    .section2-img img{
+        display: none;
+    }
+
+    .section3-text{
+        text-align: center;
+    }
+
+    .section2-img{
+        margin-top: 50px;
+    }
+
+    .section2-text h1{
+        font-size: 25px;
+    }
+
+    .section2-text p{
+        font-size: 14px;
+    }
+
+    .mobile-view{
+        font-family: "Rubik";
+        margin-bottom: 40px;
+        display: flex;
+        font-size: 22px;
+        font-weight: 500;
+        justify-content: center;
+        text-align: center;
+        line-height: 40px;
+    }
+
+    .section3-img .box2{
+        width: 195px;
+        height: 195px;
+    }
+
+    .section3-img{
+        left: 50px;
+    }
+
+    .section3-text h1{
+        display: none;
+    }
+
+     .section3-text p{
+         font-size: 14px;
+     }
+
+    .section3-img img{
+        width: 264px;
+        height: 254px;
+    }
+
+    .section3-text{
+        margin-top: 40px;
+    }
+
+    .section4{
+        margin-top: 30px;
+    }
+    
+    .howitworks{
+        margin-top: 120px;
+    }
+
+    .howitworks h1{
+        font-size: 20px;
+        margin-bottom: 30px;
+    }
+
+    .howitworks-mask .mask1{
+        position: absolute;
+        top: 0px;
+        left: 22px;
+    }
+
+    .mask1 img{
+        width: 364px;
+        height: 227px;
+    }
+
+    .mask2{
+        display: none;
+    }
+
+    .ourcustomers{
+        margin-top: 25em;
+    }
+
+    .ourcustomers h1{
+        font-size: 20px;
+    }
+
+  .title p{
+      margin-top: 0;
+  }
+
+  .footer1 h1{
+    font-size: 24px;
+  }
+
+  .footer1 div{
+      font-size: 14px;
+      line-height: 25px;
+      font-weight: 200;
+      width: 341px;
+      margin-left:50px;
+      margin-bottom: 30px;
+  }
+
+
+
+}
